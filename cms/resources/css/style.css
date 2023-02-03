@@ -1,0 +1,309 @@
+/* ここから下に記載していく */
+/* test */
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    /* font-family: 'Exo', sans-serif; */
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.area{
+  background: url("../img/back.png"); 
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+  width: 100%;
+  height:400px;
+  align-items: center;
+  margin-top: 0px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+.logo{
+  width: 250px;
+  align-items: center;
+}
+
+.main{
+font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+.main h1{
+  margin-left: 200px;
+  margin-top: -320px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 50px;
+  line-height: 50px;
+  /* font-weight: bold; */
+  color:#fff
+}
+
+.main h2{
+  margin-left: 200px;
+  text-align: left;
+  font-size: 20px;
+  /* font-weight: bold; */
+  color: #fff;
+}
+
+.center__explain{
+  display: flex;
+  margin: 50px 0 50px 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.center__text h1{
+  margin-top: 150px;
+  margin-left: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.center__text h2{
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.automation{
+  margin: 0 20px 0 20px;
+
+}
+.flow1{
+  margin-top: 5px;
+}
+
+.center__form{
+  width: 100%;
+  height: 400px;
+  /* display: flex; */
+  /* text-align: left; */
+  line-height: 30px;
+  /* margin: auto; */
+  color: #fff;
+  background-color: rgb(37, 39, 42);
+  overflow: auto;
+  /* border-radius: 10px; */
+  /* align-items: center; */
+}
+
+.center__form h1{
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0 0 100px ;
+}
+
+.center__form h3{
+  margin-top: 20px;
+  margin-left: 100px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.step1 h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.step2 h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.step3 h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.middle__course{
+  width: 100%;
+  margin: 50px 0 50px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.course1{
+  width: 300px;
+  height: 300px;
+  color: aliceblue;
+  background-color: rgb(63, 63, 63);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.course1 h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.course1 h2{
+  font-size: 14px;
+  padding: 0 20px 0 20px;
+}
+
+.course2{
+  width: 300px;
+  height: 300px;
+  color: aliceblue;
+  background-color: rgb(63, 63, 63);
+  margin: 0 50px 0 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.course2 h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.course2 h2{
+  font-size: 14px;
+  padding: 0 20px 0 20px;
+}
+
+.course3{
+  width: 300px;
+  height: 300px;
+  color: aliceblue;
+  background-color: rgb(63, 63, 63);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.course3 h1{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.course3 h2{
+  font-size: 14px;
+  padding: 0 20px 0 20px;
+}
+
+
+
+
+#input_plural {
+  margin: 10px 0;
+}
+
+#input_plural input.form-control {
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  padding: 6px 12px;
+  font-size: 14px;
+  color: #555;
+}
+
+#input_plural input.pluralBtn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  background: #fff;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+/* .plan{
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* .plany{
+  margin: 0 100px 0 100px;
+} */
+
+
+
+
+.wrap {
+  margin: 2em 0;
+  padding: 0;
+  width: 95%;
+  justify-content: center;
+  margin: auto;
+}
+
+.wrap label {
+  display: block;
+  padding : 8px;
+  color: #fff;
+  font-weight: bold;
+  background: #999;
+  cursor: pointer;
+}
+
+.wrap input[type="checkbox"] {
+  display: none;
+}
+
+.wrap .content {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.switch:checked + .content {
+  height: auto;
+  padding: 8px;
+  background: #f7f7f7;
+}
+
+
+.line{
+  width: 500px;
+  height: 200px;
+  text-align: left;
+  /* justify-content: right; */
+  /* margin-left: 500px; */
+  background-color: #dce1e4;
+  opacity: 0.5;
+  font-weight: bold;
+  overflow: auto;
+  border-radius:5px;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
